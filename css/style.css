@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 400;
   margin: 0 0 20px 0;
 }
+select#attendance option {
+    background-color: #F14E95;
+}
 
 ::-webkit-selection {
   color: #fff;
@@ -830,6 +833,7 @@ form label {
   font-weight: normal !important;
 }
 
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
@@ -864,7 +868,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -891,6 +895,25 @@ form label {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-header .display-tc .btn,
+  #fh5co-counter .display-tc .btn,
+  .fh5co-cover .display-tc .btn {
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  #fh5co-header .display-tc .btn,
+  #fh5co-counter .display-tc .btn,
+  .fh5co-cover .display-tc .btn {
+    font-size: 10px;
+  }
+  
+}
+
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
@@ -945,6 +968,8 @@ form label {
   margin-bottom: 2em;
 }
 
+
+
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
@@ -958,6 +983,20 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section {
+    width: 80px;
+    height: 80px;
+  }
+  
+}
+@media screen and (max-width: 480px){
+  .simply-countdown > .simply-section {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @keyframes pulse {
@@ -979,6 +1018,21 @@ form label {
   width: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section > div {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .simply-countdown > .simply-section > div {
+    height: 60px;
+    width: 60px;
+  }
+  
+}
+
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
@@ -991,11 +1045,35 @@ form label {
   /* amounts */
 }
 
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 24px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 18px;
+  }
+}
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   font-size: 12px;
   /* words */
+}
+
+@media screen and (max-width: 768px) {
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 8px;
+  }
 }
 
 #fh5co-testimonial,
@@ -1116,6 +1194,10 @@ form label {
 .couple-half .desc-groom {
   padding-right: 180px;
   text-align: right;
+}
+.desc-groom span,
+.desc-groom p {
+    margin: 0; /* Remove margin */
 }
 .couple-half .desc-bride {
   padding-left: 180px;
@@ -1880,6 +1962,40 @@ form label {
   border-radius: 3px;
   transition: background 0.3s;
   font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .fixed-nav {
+    top: 8px;
+    padding: 8px;
+  }
+  .fixed-nav li {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+  }
+  .fixed-nav li a {
+    padding: 6px 8px;
+
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fixed-nav {
+    top: 6px;
+    padding: 6px;
+  }
+  .fixed-nav li {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+  }
+  .fixed-nav li a {
+    padding: 4px 6px;
+    font-size: 25px;
+  }
+  
 }
 
 .fixed-nav li a:hover {
