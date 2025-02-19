@@ -1258,8 +1258,13 @@ form label {
 .fh5co-couple p{
   margin-top: 5%;
   color: #5d5d5d;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 0;
+}
+.fh5co-couple h4{
+  color: #5d5d5d;
+  font-size: 24px;
 }
 .couple-half-text .desc-groom {
   text-align: right;
@@ -1301,6 +1306,10 @@ form label {
     font-size: 18px;
   }
   .fh5co-couple p{
+    font-size: 18px;
+    
+  }
+  .fh5co-couple h4{
     font-size: 20px;
   }
 }
@@ -1321,7 +1330,7 @@ form label {
     height: 150px;
   }
   .couple-half-text h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .couple-half-text h4 {
     font-size: 16px;
@@ -1330,6 +1339,9 @@ form label {
     font-size: 14px;
   }
   .fh5co-couple p{
+    font-size: 14px;
+  }
+  .fh5co-couple h4{
     font-size: 16px;
   }
   
