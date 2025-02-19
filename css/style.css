@@ -1446,6 +1446,17 @@ form label {
   line-height: 1.5;
   color: #828282;
 }
+@media screen  and (max-width: 768px) {
+  .fh5co-heading p {
+    font-size: 16px;
+  }
+}
+@media screen  and (max-width: 480px) {
+  .fh5co-heading p {
+    font-size: 14px;
+  }
+}
+
 .fh5co-heading span {
   text-transform: uppercase;
   font-size: 13px;
@@ -1490,7 +1501,7 @@ form label {
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
-  margin: 30px auto;
+  margin: 0px auto;
   width: 50%;
   position: relative;
   -webkit-border-radius: 4px;
@@ -1508,6 +1519,19 @@ form label {
   color: #8f989f;
   font-size: 20px;
   line-height: 1.6em;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
+    font-size: 16px;
+    line-height: 1.4em;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+  
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide.active {
   display: block;
@@ -1552,6 +1576,9 @@ form label {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
+  .feature-left{
+    margin-bottom: 20px;
+  }
   .feature-left .icon {
     margin-right: 5%;
   }
@@ -1574,9 +1601,43 @@ form label {
 }
 .feature-left .feature-copy h3 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   color: #5d5d5d;
   margin-bottom: 10px;
+}
+.feature-left .feature-copy p {
+  color: #828282;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .feature-left .icon i {
+    font-size: 26px;
+  }
+  .feature-left .feature-copy h3 {
+    font-size: 18px;
+  }
+  .feature-left .feature-copy p {
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .feature-left{
+    margin-bottom: 10px;
+  }
+  .feature-left .icon i {
+    font-size: 22px;
+  }
+  .feature-left .feature-copy h3 {
+    font-size: 16px;
+  }
+  .feature-left .feature-copy p {
+    font-size: 14px;
+  }
+  
 }
 
 #fh5co-started {
