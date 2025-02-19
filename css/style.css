@@ -527,6 +527,41 @@ select#attendance option {
   }
 }
 
+/* Define the keyframes for the animation */
+@keyframes buttonHover {
+    0% {
+        transform: scale(1);
+        background-color: #fff;
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: #f1f1f1;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #fff;
+    }
+}
+
+/* Apply the animation to the button */
+a.btn2 {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    background-color: #ffffff00;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+a.btn2:hover {
+    animation: buttonHover ease-in-out;
+    color: #fff;
+    background-color: #F14E95;
+    border-color: #F14E95;
+}
+
 #fh5co-counter {
   height: 600px;
 }
