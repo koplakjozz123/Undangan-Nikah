@@ -29,12 +29,12 @@
 }
 @media screen  and (max-width: 768px) {
   #fh5co-header .display-tc h1 {
-    font-size: 50px;
+    font-size: 70px;
   }  
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 body {
@@ -1146,14 +1146,14 @@ form label {
 
 .heart {
   position: absolute;
-  top: 4em;
+  top: 6em;
   left: 0;
   right: 0;
   z-index: 99;
   animation: pulse 1s ease infinite;
 }
 .heart i {
-  font-size: 20px;
+  font-size: 60px;
   background: #fff;
   padding: 20px;
   color: #F14E95;
@@ -1163,21 +1163,9 @@ form label {
   border-radius: 50%;
 }
 
-
 .couple-half {
   width: 50%;
   float: left;
-}
-.couple-half-text{
-  width: 45%;
-  float: left;
-  margin: 2%;
-}
-
-.couple-half-text h3 {
-  font-family: "caramel", Arial, serif;
-  color: #F14E95;
-  font-size: 40px;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -1185,12 +1173,12 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1205,14 +1193,103 @@ form label {
   float: left;
   margin-left: 5px;
 }
+
+.couple-half-text{
+  width: 50%;
+  float: left;
+}
+
+.couple-half-text h3 {
+  font-family: "caramel", Arial, serif;
+  color: #F14E95;
+  font-size: 60px;
+}
+.couple-half-text p, .couple-half-text h4 {
+  color: #5d5d5d;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 8%;
+  text-align: center;
+}
+.fh5co-couple p{
+  margin-top: 5%;
+  color: #5d5d5d;
+  font-size: 24px;
+  line-height: 1.5;
+}
 .couple-half-text .desc-groom {
   text-align: right;
+  margin-right: 5%;
 }
 
 .couple-half-text .desc-bride {
   text-align: left;
+  margin-left: 5%;
 }
 
+.couple-half-text .desc-bride h4, .couple-half-text .desc-groom h4 {
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+@media screen and (max-width: 768px) {
+  .heart {
+    top: 5em;
+  }
+  .heart i{
+    font-size: 40px;
+  }
+  .couple-half .groom, .couple-half .bride {
+    width: 200px;
+    height: 200px;
+  }
+  .couple-half .groom img, .couple-half .bride img {
+    width: 200px;
+    height: 200px;
+  }
+  .couple-half-text h3 {
+    font-size: 40px;
+  }
+  .couple-half-text h4 {
+    font-size: 20px;
+  }
+  .couple-half-text p{
+    font-size: 18px;
+  }
+  .fh5co-couple p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heart {
+    top: 4em;
+  }
+  .heart i{
+    font-size: 30px;
+  }
+  .couple-half .groom, .couple-half .bride {
+    width: 150px;
+    height: 150px;
+  }
+  .couple-half .groom img, .couple-half .bride img {
+    width: 150px;
+    height: 150px;
+  }
+  .couple-half-text h3 {
+    font-size: 30px;
+  }
+  .couple-half-text h4 {
+    font-size: 16px;
+  }
+  .couple-half-text p{
+    font-size: 14px;
+  }
+  .fh5co-couple p{
+    font-size: 16px;
+  }
+  
+}
 
 .feature-center {
   text-align: center;
