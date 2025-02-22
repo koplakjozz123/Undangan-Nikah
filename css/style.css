@@ -1275,14 +1275,14 @@ form label {
   color: #F14E95;
   font-size: 60px;
 }
-.couple-half-text p, .couple-half-text h4 {
+.couple-half-text p, .couple-half-text h4, .couple-half-text span {
   color: #5d5d5d;
   font-size: 24px;
   line-height: 1.5;
   margin-top: 8%;
   text-align: center;
 }
-.fh5co-couple p{
+.fh5co-couple p , .fh5co-couple span {
   margin-top: 5%;
   color: #5d5d5d;
   font-size: 22px;
@@ -1332,7 +1332,7 @@ form label {
   .couple-half-text p{
     font-size: 18px;
   }
-  .fh5co-couple p{
+  .fh5co-couple p, .fh5co-couple span{
     font-size: 18px;
     
   }
@@ -1365,7 +1365,7 @@ form label {
   .couple-half-text p{
     font-size: 14px;
   }
-  .fh5co-couple p{
+  .fh5co-couple p , .fh5co-couple span{
     font-size: 14px;
   }
   .fh5co-couple h4{
@@ -1417,7 +1417,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
